@@ -1,0 +1,67 @@
+﻿Grille de notation BACK 
+
+18/33
+
+
+
+Les users sont stockés en BDD : 1 point
+Les mots de passe sont stockés en base de données sous forme hashée+salée avec bcryptjs : 1 point
+
+Les parties sont stockées en BDD : 1 point
+
+Les users ont des parties : 1 point
+
+Une partie appartient à un seul user : 1 point 
+les partie ont chacun un auteur qui serat le player1 
+Chaque participant peut se créer un compte : 2 points
+
+Chaque participant peut s'authentifier : 1 point
+
+Chaque participant peut se deconnecter : 1 point
+
+
+On peut créer une nouvelle partie : 2 points
+
+Il faut etre logué pour créer une partie : 1 point si on est pas logué on est sur la page index où il y a uniquement un button inscription et connexion
+On peut lister les parties : 2 points
+
+Il faut etre logué pour lister les parties : 1 point si on est pas logué on est sur la page index où il y a uniquement un button inscription et connexion
+si l'utilisateur participe à la partie, la partie sera affichée du point de vue du joueur : 1 point
+
+
+le créateur de la partie peut supprimer cette partie : 1 point 
+
+chaque joueur possède initialement 100 jetons : 1 point lors du debut de partie chaque joueur possède 100 jeton dans la bdd
+
+
+
+Grille de notation FRONT
+
+14/24
+
+
+
+Il y a un bouton "créer un compte" : 2 points
+
+Il y a un bouton "s'authentifier" : 1 point
+
+Il y a un bouton "se deconnecter" : 1 point
+
+
+Il y a un bouton "créer une nouvelle partie" : 2 points
+
+On peut lister les parties : 2 points
+
+
+Pour chaque partie de la liste, on voit son nom, son adversaire,son état, un lien pour afficher la partie : 1 point
+
+si l'utilisateur participe à la partie, la partie sera affichée du point de vue du joueur : 1 point
+
+
+le créateur de la partie peut supprimer cette partie : 1 point
+
+
+On voit 11 emplacements contigus : 2 points
+
+On voit le nom et nombre de jetons des joueurs : 1 point
+
