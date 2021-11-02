@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http.equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <meta name="viewport" content="width=device.width, initial.scale=1.0">
+    <title>accueil</title>
+
+    <script type="text/javascript">  
+      function showForm(){
+
+        monform = document.querySelector(".formcreer")
+
+          monform.style = "display: hide"
+      }
+    </script>
+    
+ 
+
+</head>
+
+<body>
+
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="accueil.html">Betcha</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="dropdown-item"><button type="button" onclick="showForm()" class="btn btn-light">Créer une partie</button></a>
+        </li>
+        </li>
+      </ul>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+          </li>
+          <li class="nav-item">
+            <form action="/user/deco" method="post"><a class="nav-link" href="#"><button type="submit" class="btn btn-danger">Déconnexion</button></a></form>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+      <div><p></p></div>
+    <div class="formpari">
+      <form  action='/games/pari' method="post" >
+      
+          <p class="pseudo1"></p>
+          <p class="text-right pseudo2"></p>
+          <label class="jetonp1"></label>
+          <input type="text" name="pari" class="pari">
+          <input type="submit" value="Parier">
+      
+          <p class="text-right jetonp2"></p>
+
+         
+      </form>   
+ 
+    </div>
+
+
+    <div></div>
+    <div><h2 class="text-center">30s</h2></div>
+
+    <div></div>
+
+    <div class="text-center">Round 1/20</div>
+
+    <div><p></p></div>
+
+    <script src="jeu.js"></script>
+       
+</body>
+
+
+
+</html>

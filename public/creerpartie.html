@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http.equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <meta name="viewport" content="width=device.width, initial.scale=1.0">
+    <title>Accueil</title>
+
+    <script>$(function(){
+        $("#header").load("header.html");
+    })
+    </script>
+    
+
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="accueil.html">Betcha</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="dropdown-item" href="#"><button type="button" class="btn btn-light">Créer une partie</button></a>
+            </li>
+            <li class="nav-item">
+              <a class="dropdown-item" href="#"><button type="button" class="btn btn-light">rejoindre une partie</button></a>
+            </li>
+            </li>
+          </ul>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"><button type="button" class="btn btn-secondary">Inscription</button></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><button type="button" class="btn btn-danger">Connexion</button></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <div id="header"></div>
+    <div><h1 class="text-center">BETCHA</h1></div>
+
+    <div></div>
+    <div><h2 class="text-center">Liste des parties</h2></div>
+
+    <div><p></p></div>
+
+    <table class="table">
+      <tr>
+        <th scope="col">Nom de la partie</th>
+        <th scope="col">Adversaire</th>
+        <th scope="col">Etat</th>
+        <th scope="col"></th>
+        <th scope="col"></th>
+      </tr>
+      <tr>
+        <th scope="row">Exemple</th>
+        <td>David</td>
+        <td>En cours</td>
+        <td><button type="button" class="btn btn-primary">Rejoindre</button> </td>
+        <td><button type="button" class="btn btn-danger">Supprimer</button></td>
+      </tr>
+    </table>
+       
+</body>
+
+<script src="acceuil.js"></script>
+
+</html>
